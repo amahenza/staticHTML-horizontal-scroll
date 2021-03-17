@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('./assets/fonts/alpha-mac-aoe/alpha-mac-aoe.css');
 *
 {
     margin: 0;
@@ -68,8 +70,16 @@
     text-align: center;
 }
 .container section .content h2{
+    font-family: 'Work Sans', sans-serif;
     font-size: 96px;
     color: #111;
+}
+.container section .content h3{
+    font-family: 'AlphaMack AOE';
+    color: #EE2E31;
+    font-size: 72px;
+    font-weight: normal;
+    font-style: normal;
 }
 .container section .content p{
     font-size: 24px;
@@ -82,5 +92,19 @@
         flex-direction: column;
         height: auto;
         transform: none !important;
+    }
+}
+@media (max-width: 425px){
+    .container section .content h2{
+    font-size: 58px;
+    color: #111;
+    }
+    .container section .content p{
+    font-size: 16px;
+    color: #111;
+    }
+    .container section .content h5{
+    color: #EE2E31;
+    font-size: 32px;
     }
 }
